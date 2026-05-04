@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Image Swapper",
+    "version": "1.0",
+    "description": "Select and swap any HTML or CSS image on a webpage via drag and drop.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
