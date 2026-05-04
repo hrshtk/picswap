@@ -1,6 +1,6 @@
 # Image Swapper Chrome Extension
 
-This Chrome extension allows you to replace images on any live webpage. It uses a drag and drop interface to swap out visual elements without altering the page layout, shadows, or underlying CSS layers. 
+This Chrome extension allows you to replace images on any live webpage with any local image. It uses a drag and drop interface to swap out visual elements without altering the page layout, shadows, or underlying CSS layers. 
 
 ## Features
 
